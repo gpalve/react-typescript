@@ -1,4 +1,3 @@
-import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 import Like from "./components/Like";
@@ -12,7 +11,6 @@ import CategoryFilter from "./expense_tracker/components/CategoryFilter";
 import CardWrapper from "./components/CardWrapper";
 import ExpenseForm from "./expense_tracker/components/ExpenseForm";
 
-let items = ["Mumbai", "Thane", "New Mumbai"];
 export const categories = ["Traveling", "Billing", "Entertainment", "Food"];
 
 function App() {

@@ -1,6 +1,5 @@
-import React from "react";
 import { categories } from "../../App";
-import { useForm, FieldValues } from "react-hook-form";
+import { useForm } from "react-hook-form";
 
 interface FormData {
   expense: string;

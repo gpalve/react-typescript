@@ -1,4 +1,3 @@
-import { useRef, useState } from "react";
 import { useForm, FieldValues } from "react-hook-form";
 interface FormData {
   name: string;
