@@ -10,6 +10,7 @@ import ExpenseList from "./expense_tracker/components/ExpenseList";
 import CategoryFilter from "./expense_tracker/components/CategoryFilter";
 import CardWrapper from "./components/CardWrapper";
 import ExpenseForm from "./expense_tracker/components/ExpenseForm";
+import Fetching from "./components/Fetching";
 
 export const categories = ["Traveling", "Billing", "Entertainment", "Food"];
 
@@ -52,7 +53,10 @@ function App() {
   return (
     <>
       <h4>React+Typescript Building Blocks</h4> <hr />
-      <CardWrapper color="warning" heading="React TS CRUD">
+      <CardWrapper heading="CRUD on API Data">
+        <Fetching></Fetching>
+      </CardWrapper>
+      <CardWrapper color="warning" heading="React TS Basic Form handling">
         <ExpenseForm
           onSubmit={
             (postData) =>
