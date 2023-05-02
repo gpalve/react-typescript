@@ -1,4 +1,4 @@
-<img src="https://github.com/gpalve/react-typescript/blob/main/ss.jpg?raw=true">
+
 
 <h1>React TypeScript Vite Project</h1>
 
@@ -66,6 +66,8 @@ npm install</code></pre>
 <ol start="6">
   <li>Open a pull request to the original project repository and describe your changes.</li>
 </ol>
+
+<img src="https://github.com/gpalve/react-typescript/blob/main/ss.jpg?raw=true">
 
 <h2>License</h2>
 
